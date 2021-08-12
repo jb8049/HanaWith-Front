@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+ #blog-post-area{
+ 	margin-top: 30px;
+ }
+ 
+ #comment-custom{
+ 	max-width: 700px;
+ 	margin-left: 480px;
+ 	font-family: 'Noto Sans KR', sans-serif;
+ }
+ 
+ #comment-custom-login{
+ 	max-width: 700px; 
+ 	margin-left: 589px;
+ 	font-family: 'Noto Sans KR', sans-serif;
+ 
+ }
+ 
+ #comment-custom > h4{
+ 	font-family: 'Noto Sans KR', sans-serif;
+ 	font-size: xx-large;
+ }
+ 
+ #comment-custom-login > h4{
+ 	font-family: 'Noto Sans KR', sans-serif;
+ 	font-size: xx-large;
+ }
+ 
+ #signUpBtn{
+ 	border :0px;
+ 	font-size: large;
+ 	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+	color : #fff;
+ 	background-color :#27b2a5;
+ 	
+ }
+ 
+ #loginBtn{
+ 	border :0px;
+ 	margin-left: 15px;
+ 	font-size: large;
+ 	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+	color : #fff;
+ 	background-color :#27b2a5;
+ 
+ }
+ 
+ #kakaoBtn{
+ 	width : 160px;
+ 	height : 52px;
+ 	margin-left: 19px;
+ 	border :0px;
+ 	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+ }
+ 
+ .check{
+    padding: 10px 24px;
+    background-color: rgba(130,139,178,0.25);
+    color: rgb(2,2,2);
+    width:80px;
+    height: 38px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 9px;
+    padding-top: 5px;
+    -webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+	font-family: 'Noto Sans KR', sans-serif;
+ }
+ 
+ .check.email{
+ 	padding: 10px 24px;
+    background-color: rgba(130,139,178,0.25);
+    color: rgb(2,2,2);
+    width:100px;
+    height: 38px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 9px;
+    padding-top: 5px;
+    -webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+	font-family: 'Noto Sans KR', sans-serif;
+ }
+ 
+ .search.zipcode{
+ 	padding: 10px 24px;
+    background-color: rgba(130,139,178,0.25);
+    color: rgb(2,2,2);
+    width:120px;
+    height: 38px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 11px;
+    padding-top: 5px;
+    -webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+	font-family: 'Noto Sans KR', sans-serif;
+ }
+ 
+ input[type=text] { 
+ text-transform :none !important;
+ background-color: rgba(130,139,178,0.25) !important;
+}
+
+input[type=password] { 
+ text-transform :none !important;
+ background-color: rgba(130,139,178,0.25) !important; 
+}
+
+input[type=date] { 
+ text-transform :none !important;
+ background-color: rgba(130,139,178,0.25) !important; 
+}
+ 
+ select{
+ 	padding: 8px 20px;
+    background: rgba(130,139,178,0.25) !important;
+    border: none;
+    border-radius: 0px;
+    width: 100%;
+    font-size: 13px;
+    color: #999999;
+    border: 1px solid transparent;
+    padding-left: 0px;
+    padding-bottom: 6px;
+    padding-top: 0px;
+    border-top-width: 6px;
+}
+
+
+
+#comment-custom-receipt {
+	/* max-width: 700px; */
+	width: 1000px;
+    margin-left: 350px;
+	font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 30px;
+	
+}
+
+#comment-custom-receipt > h4 {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: xx-large;
+}
+
+.container {
+	margin-top: 30px;
+}
+
+#receiptSaveBtn {
+	width : 180px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border: 0px;
+    margin-right: 20px;
+	font-size: x-large;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+	color: #fff;
+	background-color: #27b2a5;
+}
+
+#receiptSaveBtn:hover{
+
+background-color: #279fb2;
+}
+
+#receiptDelBtn{
+	
+	width : 180px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border: 0px;
+	font-size: x-large;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	-ms-border-radius: 30px;
+	border-radius: 30px;
+	color: #999999;
+	background-color: rgba(134, 139, 178, 0.25);
+
+}
+
+#receiptDelBtn:hover{
+	background-color :rgba(134, 139, 178, 0.70);
+	color: rgb(2,2,2);
+}
+
+
+#comment-custom-receipt>h4 {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: xx-large;
+}
+
+#memo {
+	padding: 8px 20px;
+	background: rgba(130, 139, 178, 0.25);;
+	border: none;
+	border-radius: 0px;
+	width: 100%;
+	font-size: 16px;
+	font-family: 'Noto Sans KR', sans-serif;
+	border: 1px solid transparent;
+	padding-left: 0px;
+}
+ .receiptBtn{
+ 	width: 90px;
+ 	font-family: 'Noto Sans KR', sans-serif;
+ }
+
+.row.box{
+	margin-left: 34px;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+	color : #495057;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+	color : #007BFF;
+}
+ 
+.nav.nav-tabs{
+
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+input[type=text] { 
+ text-transform :none !important;
+ background-color: rgba(130,139,178,0.25) !important;
+ margin-bottom: 20px;
+ padding-left: 4px;
+ color : #999999 !important;
+}
